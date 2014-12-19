@@ -1,0 +1,29 @@
+{
+	"name": "projectcleverweb/php-encryption",
+	"description": "",
+	"version": "0.1.0",
+	"keywords": [
+		"encryption"
+	],
+	"homepage": "https://github.com/ProjectCleverWeb/PHP-Encryption",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Nicholas Jordon",
+			"email": "projectcleverweb@gmail.com",
+			"homepage": "https://github.com/ProjectCleverWeb"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"projectcleverweb\\encryption\\": "src"
+		}
+	}
+}
